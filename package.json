@@ -1,21 +1,27 @@
 {
-    "author": {
-        "name": "Adriano Colan",
-        "email": "adrianocola@gmail.com"
-    }
-    ,"name": "indexden-node"
-    ,"description": "A client for IndexDen (indextank)"
-    , "version": "0.0.1"
-    , "engines": {
-        "node": ">= 0.6.0"
-    }
-    ,"repository": {
-        "type": "git",
-        "url": "git://github.com/adrianocola/indexden-node.git"
-    }
-    ,"main": "./index.js"
-    , "dependencies": {
-        "underscore": "*"
-        , "spore": "*"
-    }
+  "author": "Adriano Cola <adrianocola@gmail.com>",
+  "name": "indexden",
+  "description": "A client for IndexDen (indextank)",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adrianocola/indexden-node.git"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "underscore": "*",
+    "spore": "0.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "indexden",
+    "indextank"
+  ],
+  "license": "BSD"
 }

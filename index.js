@@ -23,7 +23,6 @@ module.exports.connect = function(options) {
         client.list_indexes(function(err, result) {
             var indexes = processBody(result);
             if(fn) fn(err,indexes);
-            //u(indexes).chain().keys().each(function(value) {console.log(' -> %s', value) });
         });
     }
 

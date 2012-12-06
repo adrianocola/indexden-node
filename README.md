@@ -8,13 +8,13 @@ This project was based in this [gist](https://gist.github.com/1023154) by [franc
 ## Installation
 
 ```
-npm install indexden-node
+npm install indexden
 ```
 
 ## Connecting to indexden server
 
 ```javascript
-indexDenClient = require('indexden-node').connect({
+indexDenClient = require('indexden').connect({
     url: "index_den_url",    //default: http://localhost:20220
     user: "index_den_username",  //optional
     pass: "index_den_password"  //optional
