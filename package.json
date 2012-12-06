@@ -3,12 +3,17 @@
         "name": "Adriano Colan",
         "email": "adrianocola@gmail.com"
     }
-    ,"name": "indexden-client"
+    ,"name": "indexden-node"
     ,"description": "A client for IndexDen (indextank)"
     , "version": "0.0.1"
     , "engines": {
         "node": ">= 0.6.0"
     }
+    ,"repository": {
+        "type": "git",
+        "url": "git://github.com/adrianocola/indexden-node.git"
+    }
+    ,"main": "./index.js"
     , "dependencies": {
         "underscore": "*"
         , "spore": "*"
