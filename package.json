@@ -1,0 +1,16 @@
+{
+    "author": {
+        "name": "Adriano Colan",
+        "email": "adrianocola@gmail.com"
+    }
+    ,"name": "indexden-client"
+    ,"description": "A client for IndexDen (indextank)"
+    , "version": "0.0.1"
+    , "engines": {
+        "node": ">= 0.6.0"
+    }
+    , "dependencies": {
+        "underscore": "*"
+        , "spore": "*"
+    }
+}
