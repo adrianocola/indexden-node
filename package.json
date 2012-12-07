@@ -2,7 +2,7 @@
   "author": "Adriano Cola <adrianocola@gmail.com>",
   "name": "indexden",
   "description": "A client for IndexDen (indextank)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": ">= 0.6.0"
   },
