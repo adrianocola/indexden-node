@@ -42,8 +42,7 @@ indexDenClient.createIndex("test_index",function(err,index){
 
 ```
 
-## Complete API
-... TODO ...
+Check the file [index.js](https://github.com/adrianocola/indexden-node/blob/master/index.js) for the complete list of methods and the parameters each methods accepts.
 
 
 ## License
