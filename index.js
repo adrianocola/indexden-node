@@ -1,6 +1,4 @@
 var spore = require('spore');
-var u = require('underscore');
-
 
 /**
  * Connect to an indexden of indextank server
@@ -106,9 +104,9 @@ module.exports.connect = function(options) {
             ids = {docid: docids};
         }else if(Object.prototype.toString.call( docids ) === '[object Array]'){
             ids = [];
-            u.each(docids,function(docid){
-                ids.push({docid: docid});
-            });
+            for (var i = 0; i < docids.length; i++){
+                ids.push({docid: docids[i]});
+            }
         }
         client.delete_documents({index : index}, JSON.stringify(ids), function(err, result) {
             if (result.status== 200 && err) err = undefined;
