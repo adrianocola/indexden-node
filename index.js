@@ -46,7 +46,7 @@ module.exports.connect = function(options) {
             fn = public_search;
             public_search = false;
         }
-        client.create_index({index: index, public_search: public_search}, function(err, result) {
+        client.create_index({index: index}, JSON.stringify({ public_search: public_search }), function(err, result) {
             if(fn) fn(err,processBody(result));
         });
     }

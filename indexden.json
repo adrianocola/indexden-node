@@ -21,8 +21,7 @@
             "path":"/v1/indexes/:index",
             "method":"PUT",
             "expected_status":[201,204],
-            "required_params":["index"],
-            "optional_params":["public_search"]
+            "required_params":["index"]
         },
         "delete_index":{
             "path":"/v1/indexes/:index",
